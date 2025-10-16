@@ -10,19 +10,6 @@ Projekt jest zaprojektowany do oglądania w **przeglądarce** (nie w Viewerze RS
 
 ---
 
-## Spis treści
-- [Struktura repozytorium](#struktura-repozytorium)  
-- [Dane i ich rola](#dane-i-ich-rola)  
-- [Zakładki (co zobaczysz w aplikacji)](#zakładki-co-zobaczysz-w-aplikacji)  
-- [Wymagania](#wymagania)  
-- [Szybki start (zalecane)](#szybki-start-zalecane)  
-- [Alternatywny start](#alternatywny-start)  
-- [Najczęstsze problemy i rozwiązania](#najczęstsze-problemy-i-rozwiązania)  
-- [Zrzuty ekranu (opcjonalnie)](#zrzuty-ekranu-opcjonalnie)  
-- [Licencja](#licencja)
-
----
-
 
 ## Zakładki (co zobaczysz w aplikacji)
 
