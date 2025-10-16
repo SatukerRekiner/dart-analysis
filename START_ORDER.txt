@@ -1,0 +1,12 @@
+# One relative path per line. Lines starting with # are comments.
+# Put here the EXACT order that works for you manually.
+#scripts/00_init.R
+#scripts/01_load_data.R
+#scripts/02_features.R
+sigma12321.r
+proba.r
+luka.r
+JACKPOT.r
+bismilion.r
+apka.r
+# index/app is run automatically at the end; do NOT list index.R or app.R here.
