@@ -1,47 +1,9 @@
 # dart-analysis — Quickstart & uruchomienie
 
 Projekt startuje z pliku **`index.R`**, ale **najpierw** uruchom skrypty, które przygotowują środowisko (ścieżki, dane, cache).
-Poniżej masz gotowe kroki do README oraz opcjonalny „bootstrap” `start.R`, który robi to wszystko jednym poleceniem.
 
 ---
 
-## Wymagania
-- R ≥ 4.2
-- (Zalecane) RStudio
-- Pakiety z `renv.lock` (jeśli używasz renv) lub ręcznie doinstalowane
-
----
-
-## 1) Klon repozytorium
-```bash
-git clone https://github.com/SatukerRekiner/dart-analysis.git
-cd dart-analysis
-```
-
-## 2) (Opcjonalnie) Odtwórz środowisko pakietów przez renv
-```r
-install.packages("renv")
-renv::restore()   # przywraca dokładne wersje pakietów
-```
-> Jeśli nie używasz renv, zainstaluj brakujące pakiety zwykłym `install.packages()`.
-
-## 3) Przygotuj środowisko (skrypty inicjalizujące)
-W RStudio (lub R):
-```r
-source("scripts/00_init.R")       # konfiguracja: ścieżki, seedy, helpery
-source("scripts/01_load_data.R")  # wczytanie i czyszczenie danych
-source("scripts/02_features.R")   # (opcjonalnie) transformacje/feature engineering
-```
-Te skrypty tworzą obiekty i pamięć podręczną tak, aby **`index.R`** miał wszystko „na gotowo”.
-
-## 4) Start głównego pliku
-```r
-source("index.R")
-# albo jeśli to Shiny:
-# shiny::runApp("index.R")
-```
-
----
 
 ## Start jednym poleceniem (bootstrap — opcjonalny plik `start.R`)
 Możesz uruchamiać projekt jednym poleceniem, korzystając z pliku **`start.R`** (dołączony niżej).
