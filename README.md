@@ -47,17 +47,7 @@ cd dart-analysis
    - `www/icon1.jpg ... icon9.jpg`, `www/dartboard.png`  
    - pliki `*.xlsx` (`nagrody.xlsx`, `ogladalnosc.xlsx`, `zwyciezcy.xlsx`) w oczekiwanej lokalizacji (patrz kod)
 
-3) **Ustal kolejność plików do wczytania**
-   Ten krok domyślnie jest już wykonany
-   Otwórz **`START_ORDER.txt`** i ustaw **kolejność**, w jakiej *Ty ręcznie* odpalasz pliki (po jednym na linię), np.:
-   ```
-   apka.R
-   proba.r
-   JACKPOT.r
-   ```
-   > **Nie dodawaj** tutaj `index.R` / `app.R` – starter sam je spróbuje uruchomić na końcu.
-
-5) **Uruchom starter** (w RStudio z katalogu projektu):
+3) **Uruchom starter** (w RStudio z katalogu projektu):
 ```r
 source("start_from_order.R")
 ```
