@@ -44,7 +44,7 @@ cd dart-analysis
 ```
 
 2) **Upewnij się, że dane i obrazy są na miejscu**  
-   - `www/icon1.jpg ... icon9.jpg`, `www/dartboard.png`  
+   - `www/icon1.jpg ... icon9.jpg` 
    - pliki `*.xlsx` (`nagrody.xlsx`, `ogladalnosc.xlsx`, `zwyciezcy.xlsx`) w oczekiwanej lokalizacji (patrz kod)
 
 3) **Uruchom starter** (w RStudio z katalogu projektu):
