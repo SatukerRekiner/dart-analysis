@@ -66,7 +66,11 @@ Starter:
 Wstaw tu 1–3 obrazki (folder `www/` + odwołanie względne lub URL):
 
 ```markdown
-![Najważniejsze turnieje](www/screenshot_turnieje.png)
-![Premier League – tarcza](www/screenshot_tarcza.png)
+![Najważniejsze turnieje](ss/ss1.png)
+![Premier League – tarcza](ss/ss2.png)
+(ss/ss3.png)
+(ss/ss4.png)
+(ss/ss5.png)
 ```
+
 
