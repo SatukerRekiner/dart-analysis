@@ -63,14 +63,9 @@ Starter:
 
 ## Zrzuty ekranu
 
-Wstaw tu 1–3 obrazki (folder `www/` + odwołanie względne lub URL):
-
-```markdown
 ![Najważniejsze turnieje](ss/ss1.png)
 ![Premier League – tarcza](ss/ss2.png)
 ![Widok 3](ss/ss3.png)
 ![Widok 4](ss/ss4.png)
 ![Widok 5](ss/ss5.png)
-```
-
 
